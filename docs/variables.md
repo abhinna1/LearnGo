@@ -1,6 +1,7 @@
-# Basics
 
-## Variables
+# Variables
+
+## Declaring variables
 
 Variables can be defined in Go using the var keyword followed by the variable name and type respectively.
 
