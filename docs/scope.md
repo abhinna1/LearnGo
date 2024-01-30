@@ -36,9 +36,10 @@ Here, the variable 'GLOBALVARIABLE' is defined at a global scope, therefore, it 
 
 Similar to the scope of variables and functions in a file, their scopes can also differ when trying to access them from different packages.
 
-In GO, when we create a variable in a package, in order to make them public (accessible from another package) we need to name them with a capital initial. And for a private variable or function, the naming should start with a lowe-case intial.
+In GO, when we create a variable in a package, in order to make them public (accessible from another package) we need to name them with a capital initial. And for a private variable or function, the naming should start with a lowe-case initial.
 
 ```go
+
 package database
 
 import "fmt"
@@ -48,7 +49,8 @@ const dbName string = "database1"
 func ConnectDb(){
     fmt.Println("Connected to database.")
 }
+
 ```
 
-In the above code example, the variable 'dbName' is only accessible from within the database package as it's naming begins with a lowecase.
+In the above code example, the variable 'dbName' is only accessible from within the database package as it's naming begins with a lowercase.
 The 'ConnectDb' function however, is public and can be accessible from different packages as the naming starts with an upper case.
