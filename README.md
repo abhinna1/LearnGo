@@ -4,7 +4,7 @@ Open-Source public repository to learn GO.
 
 ## Content
 
-1. [Scop 🔭](docs/scope.md)
+1. [Scope 🔭](docs/scope.md)
 2. [Variables 🗃️](docs/variables.md)
 3. [Packages 📦](docs/packages.md)
 
