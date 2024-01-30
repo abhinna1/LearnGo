@@ -10,12 +10,12 @@ Open-Source public repository to learn GO.
 
 ## Code examples
 
-Code examples for different topics are available inside the tutorials package.
+Code examples for different topics are available inside the [tutorials package](tutorials/).
 These examples cover various titles revolving the syntax and concepts in Go.
 
 ## Tests
 
-Unit-tests are a vital part of any project. the tests module contain unit-tests for
+Unit-tests are a vital part of any project. The [tests module](tests/) contain unit-tests for
 all code examples and packages in the project.
 
 The tests can be debugged in VS-Code or through the cli command `go test ./tests`.
