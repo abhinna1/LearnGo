@@ -39,7 +39,6 @@ Similar to the scope of variables and functions in a file, their scopes can also
 In GO, when we create a variable in a package, in order to make them public (accessible from another package) we need to name them with a capital initial. And for a private variable or function, the naming should start with a lowe-case initial.
 
 ```go
-
 package database
 
 import "fmt"
@@ -49,7 +48,6 @@ const dbName string = "database1"
 func ConnectDb(){
     fmt.Println("Connected to database.")
 }
-
 ```
 
 In the above code example, the variable 'dbName' is only accessible from within the database package as it's naming begins with a lowercase.

@@ -4,9 +4,10 @@ Open-Source public repository to learn GO.
 
 ## Content
 
-1. [Scope 🔭](docs/scope.md)
-2. [Variables 🗃️](docs/variables.md)
+1. [Variables 🗃️](docs/variables.md)
+2. [Conditional Statements 🤔](docs/conditional.md)
 3. [Packages 📦](docs/packages.md)
+4. [Scope 🔭](docs/scope.md)
 
 ## Code examples
 
