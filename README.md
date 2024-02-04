@@ -6,8 +6,9 @@ Open-Source public repository to learn GO.
 
 1. [Variables 🗃️](docs/variables.md)
 2. [Conditional Statements 🤔](docs/conditional.md)
-3. [Packages 📦](docs/packages.md)
-4. [Scope 🔭](docs/scope.md)
+3. [Functions 📲](docs/functions.md)
+4. [Packages 📦](docs/packages.md)
+5. [Scope 🔭](docs/scope.md)
 
 ## Code examples
 
