@@ -2,7 +2,7 @@
 
 Functions in Go, are like in any other programming languages. They are just a block of code that you can execute by calling them anywhere in your program, reducing repetition of code.
 
-## [Code Example](../tutorials/functions/main.go)
+## [Code Example](../tutorials/functions/functions.go)
 
 ## Defining a function
 
