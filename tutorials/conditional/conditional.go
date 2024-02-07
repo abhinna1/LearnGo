@@ -1,15 +1,12 @@
 package conditional
 
+
+// Check if integer is boolean.
+// 	Params:
+// 		num (int): integer to be checked
+// 	Returns:
+// 		bool: true if integer is even else false	
 func IsEven(num int) bool {
-	/*
-		Check if integer is boolean.
-
-		Params:
-			num (int): integer to be checked
-
-		Returns:
-			bool: true if integer is even else false
-	*/
 	if num%2 == 0 {
 		return true
 	} else {
@@ -17,6 +14,11 @@ func IsEven(num int) bool {
 	}
 }
 
+// Function to verify role different roles.
+// 	Params:
+// 		role(string): role to be verified.
+// 	Returns:
+// 		int: number based on the role.
 func AccessControl(role string) int {
 	switch role {
 	case "owner":
