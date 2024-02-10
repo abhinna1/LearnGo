@@ -2,7 +2,6 @@ package conditional
 
 import (
 	"testing"
-	// "github.com/abhinna1/LearnGo/tutorials/conditional"
 )
 
 func TestIsEven(t *testing.T) {
