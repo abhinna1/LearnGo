@@ -1,11 +1,10 @@
 package conditional
 
-
 // Check if integer is boolean.
 // 	Params:
 // 		num (int): integer to be checked
 // 	Returns:
-// 		bool: true if integer is even else false	
+// 		bool: true if integer is even else false
 func IsEven(num int) bool {
 	if num%2 == 0 {
 		return true
